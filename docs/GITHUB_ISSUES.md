@@ -443,6 +443,16 @@ Integrate robust plagiarism checkers that can identify uncredited content, inclu
 
 ## 📋 Issue Creation Checklist
 
+### Automated Issue Creation
+You can automatically create all issues using the Python script at `scripts/create_github_issues.py`. Set the environment variables `GITHUB_TOKEN` (a personal access token) and `GITHUB_REPO` (e.g. `username/repo`) then run:
+
+```bash
+python scripts/create_github_issues.py
+```
+
+The script parses this document and creates matching GitHub issues with labels and descriptions.
+
+
 For each issue, ensure you:
 - [ ] Use the exact title from this document
 - [ ] Add all specified labels
