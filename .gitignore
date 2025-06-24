@@ -1,0 +1,163 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging
+*.env
+
+# API Keys and configuration
+config/secrets.json
+secrets/
+.secrets/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vite/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+.nyc_output
+
+# Dependencies lock files (keep package-lock.json, remove others if needed)
+yarn.lock
+pnpm-lock.yaml
+
+# Runtime
+.cache/
+*.tsbuildinfo
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# AI/ML specific
+# Large datasets
+datasets/
+data/raw/
+data/processed/
+*.csv
+*.jsonl
+*.parquet
+
+# Model files
+models/
+*.model
+*.pkl
+*.h5
+*.onnx
+*.pt
+*.pth
+
+# Vector database
+vector_store/
+embeddings/
+*.index
+*.faiss
+
+# Training outputs
+checkpoints/
+runs/
+wandb/
+tensorboard_logs/
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.wav
+*.flac
+*.pdf
+*.epub
+*.mobi
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Python specific (if using Python for AI components)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Docker
+.dockerignore
+*.dockerfile
+
+# Terraform (if using for infrastructure)
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+
+# Cloud credentials
+**/credentials.json
+**/service-account-key.json
+**/gcp-key.json
+**/aws-credentials.json
+
+# Test outputs
+test-results/
+screenshots/
+videos/
+
+# Backup files
+*.bak
+*.backup
+*.old 
